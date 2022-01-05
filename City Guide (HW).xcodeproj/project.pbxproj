@@ -8,20 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9F734387278464D5001AB589 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F734386278464D5001AB589 /* Model.swift */; };
-		9F73438927847DAB001AB589 /* InfoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73438827847DAB001AB589 /* InfoTabBarController.swift */; };
-		9F73438B27847DD2001AB589 /* infoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73438A27847DD2001AB589 /* infoTableViewController.swift */; };
 		9F73438E27847EA6001AB589 /* Data Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73438D27847EA6001AB589 /* Data Manager.swift */; };
 		9F73B97227843487001CFE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73B97127843487001CFE4A /* AppDelegate.swift */; };
 		9F73B97427843487001CFE4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73B97327843487001CFE4A /* SceneDelegate.swift */; };
 		9F73B97927843487001CFE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F73B97727843487001CFE4A /* Main.storyboard */; };
 		9F73B97B27843489001CFE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F73B97A27843489001CFE4A /* Assets.xcassets */; };
 		9F73B97E27843489001CFE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F73B97C27843489001CFE4A /* LaunchScreen.storyboard */; };
+		9F99EABC2785EBB200AC4BD4 /* CurrentCityViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99EABB2785EBB200AC4BD4 /* CurrentCityViewContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F734386278464D5001AB589 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		9F73438827847DAB001AB589 /* InfoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTabBarController.swift; sourceTree = "<group>"; };
-		9F73438A27847DD2001AB589 /* infoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoTableViewController.swift; sourceTree = "<group>"; };
 		9F73438D27847EA6001AB589 /* Data Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Manager.swift"; sourceTree = "<group>"; };
 		9F73B96E27843487001CFE4A /* City Guide (HW).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Guide (HW).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F73B97127843487001CFE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +27,7 @@
 		9F73B97A27843489001CFE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F73B97D27843489001CFE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F73B97F27843489001CFE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F99EABB2785EBB200AC4BD4 /* CurrentCityViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCityViewContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +44,7 @@
 		9F73438C27847E34001AB589 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9F73438827847DAB001AB589 /* InfoTabBarController.swift */,
-				9F73438A27847DD2001AB589 /* infoTableViewController.swift */,
+				9F99EABB2785EBB200AC4BD4 /* CurrentCityViewContoller.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -157,9 +154,8 @@
 			files = (
 				9F73438E27847EA6001AB589 /* Data Manager.swift in Sources */,
 				9F734387278464D5001AB589 /* Model.swift in Sources */,
-				9F73438927847DAB001AB589 /* InfoTabBarController.swift in Sources */,
 				9F73B97227843487001CFE4A /* AppDelegate.swift in Sources */,
-				9F73438B27847DD2001AB589 /* infoTableViewController.swift in Sources */,
+				9F99EABC2785EBB200AC4BD4 /* CurrentCityViewContoller.swift in Sources */,
 				9F73B97427843487001CFE4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

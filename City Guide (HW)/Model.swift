@@ -8,31 +8,21 @@
 import Foundation
 
 struct City {
-    let name: String
-    let image: String
-    let difinition: String
+    var name: String
+    var image: String
+    var population: Float
+    var area: Float
+    var foundedDate: Int
     
-    var sights : [Sight] = []
+    var sights: [String]
     
-
-}
-
-struct Sight {
-    
-    static let dataManager = DataManager.shared
-    let name: String 
-    let address: String
-    let image: String
-    let description: String
-    
-    static func getSights() -> [Sight] {
-        
-        var sights: [Sight] = []
-        
-        for index in 0..<dataManager.names.count {
-            sights.append(Sight(name: dataManager.names[index], address: dataManager.adress[index], image: dataManager.image[index], description: dataManager.description[index]))
+    static func getCity() -> City {
+        City(name: "Ufa",
+             image: "6",
+             population: 1200000,
+             area: 342.33,
+             foundedDate: 1500,
+             sights: ["Salavat Ulaev square", "Sõpruse monument", "Gostinyy Dvor", "Art Kvadrat", "Park Imeni Ivana Yakutova"])
         }
-        return sights
-
-    }
 }
+
